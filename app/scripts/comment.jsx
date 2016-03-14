@@ -1,6 +1,6 @@
 var React = require('react');
 
-module.exports = React.createClass({
+var Comment = React.createClass({
 	rawMarkup: function() {
 		var rawMarkup = marked(this.props.children.toString(), {sanitize: true});
 		return { __html: rawMarkup };
@@ -17,3 +17,5 @@ module.exports = React.createClass({
 		);
 	}
 });
+
+module.exports = Comment;

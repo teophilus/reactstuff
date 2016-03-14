@@ -2,7 +2,7 @@ var React = require('react');
 var CommentList = require('./comment-list');
 var CommentForm = require('./comment-form');
 
-module.exports = React.createClass({
+var CommentBox = React.createClass({
 	render: function() {
 		return (
 			<div className="commentBox">
@@ -13,3 +13,5 @@ module.exports = React.createClass({
 		);
 	}
 });
+
+module.exports = CommentBox;

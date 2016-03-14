@@ -1,7 +1,7 @@
 var React = require('react');
 var Comment = require('./comment');
 
-var CommentList = React.createClass({
+module.exports = React.createClass({
 	render: function() {
 		var commentNodes = this.props.data.map(function(comment) {
 				return (

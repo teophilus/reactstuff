@@ -1,0 +1,18 @@
+{
+	"paths": {
+		"app" : "app",
+		"lessFiles" : "app/styles/less/*.less",
+		"sassFiles": "app/styles/*.scss",
+		"indexFiles" : "app/*.html",
+		"livescriptFiles": "app/scripts/livescript/*.ls",
+		"coffeeFiles": "app/scripts/coffee/*.coffee",
+		"jsFiles": "app/scripts/*.js",
+		"sourcemapOutput": "./../sourcemaps",
+		"scriptsOutput": "app/scripts",
+		"stylesOutput": "app/styles",
+		"distFolder": "dist/",
+		"distSourcemaps" : "sourcemaps/",
+		"mainAppJs": "app/scripts/app.js",
+		"jsDir": "scripts/"
+	}
+}

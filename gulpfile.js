@@ -10,7 +10,7 @@ var watchify    = require('watchify');
 var reactify    = require('reactify');
 
 // Static Server + watching scss/html files
-gulp.task('serve', ['sass'], function() {
+gulp.task('serve', ['sass', 'ify'], function() {
 
     browserSync.init({
         server: "./app"

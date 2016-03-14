@@ -6,7 +6,7 @@ var data = [
   {id: 2, author: "Jordan Walke", text: "This is *another* comment"}
 ];
 
-ReactDOM.render(
+React.render(
 	<CommentBox data={data} />,
 	document.getElementById('content')
 );

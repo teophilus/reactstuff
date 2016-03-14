@@ -41,10 +41,10 @@ gulp.task('ify', function() {
 		entries: ['./app/scripts/app.jsx'], //main entry point
 		transform: ['reactify'],
 		extensions: ['.jsx'],
-		debig: true,
+		debug: true,
 		cache: {},
 		fullPaths: true
-		}));
+	}));
 
 	function build(file) {
 		if (file) gutil.log('Recompiling ' + file);

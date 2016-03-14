@@ -7,7 +7,7 @@ module.exports = React.createClass({
 		return (
 			<div className="commentBox">
 				<h1>FOoo</h1>
-				<CommentList  data={this.props.data}/>
+				<CommentList data={this.props.data}/>
 				<CommentForm />
 			</div>
 		);

@@ -1,12 +1,10 @@
 var React = require('react');
-var CommentBox = require('./comment-box');
+var Gallery = require('./gallery');
 
-var data = [
-  {id: 1, author: "Pete Hunt", text: "This is one comment"},
-  {id: 2, author: "Jordan Walke", text: "This is *another* comment"}
-];
+var data = require('./data.json');
+
 
 React.render(
-	<CommentBox data={data} />,
+	<Gallery data={data.tickets} />,
 	document.getElementById('content')
 );

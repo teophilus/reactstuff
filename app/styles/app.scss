@@ -2,3 +2,127 @@ body {
 	font-family: sans-serif;
 	background: #fff;
 }
+
+@mixin border-radius($radius) {
+	border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+}
+
+$pop-height: 275px;
+$pop-width: 600px;
+$primary-color: #fff;
+$primary-color-inverse: invert($primary-color);
+$secondary-color: #a5a5a5;
+
+
+#container {
+	// position: absolute;
+	height: 100%;
+	width: 100%;
+	flex: 1;
+	order: 2;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: row;
+}
+
+#pop {
+	font-family: 'Lato', sans-serif;
+	position: relative;
+	top: 50%;
+	height: $pop-height;
+	width: $pop-width;
+	background: #000;
+	color: $primary-color;
+	margin: ($pop-height / -2) auto 0 auto;
+	z-index: 9000;
+	@include border-radius (3px);
+
+	.layout {
+
+	}
+
+	.image {
+
+	}
+
+	.content {
+		margin: 0 10%;
+	}
+
+	.heading {
+		text-transform: uppercase;
+		font-size: 24px;
+		margin-bottom: 5px;
+	}
+
+	.subtitle {
+		font-size: 13px;
+		color: $secondary-color;
+	}
+
+	.disclaimer {
+		font-size: 9px;
+		color: $secondary-color;
+	}
+
+	.button, .input {
+		border-style: solid;
+		border-width: 2px;
+		border-color: $primary-color;
+		background-color: $primary-color-inverse;
+		color: $primary-color;
+		display: inline-block;
+		margin-top: 24px
+	}
+
+	.input {
+		height: 24px;
+		padding: 6px;
+		width: 325px;
+		box-sizing: content-box;
+		margin-right: 2px;
+
+		&:focus {
+			color: invert($primary-color);
+			background: invert($primary-color-inverse);
+		}
+	}
+
+	.button {
+		font-size: 12px;
+		height: 40px;
+		text-transform: uppercase;
+		font-weight: 900;
+		width: 135px;
+		cursor: pointer;
+		box-sizing: border-box;
+
+		&:hover {
+			color: invert($primary-color);
+			background: invert($primary-color-inverse);
+		}
+	}
+}
+
+
+// configs
+
+.configuration {
+	flex: 0;
+	order: 1;
+	input, textarea {
+		border-radius: 3px;
+		border: 1px solid #666;
+		padding: 5px;
+		margin-bottom: 10px;
+
+		&[type="submit"] {
+			background: #337ab7;
+			color: white;
+		}
+	}
+}

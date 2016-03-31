@@ -1,12 +1,18 @@
 var React = require('react');
-var CommentBox = require('./comment-box');
+var Signup = require('./signup');
 
-var data = [
-  {id: 1, author: "Pete Hunt", text: "This is one comment"},
-  {id: 2, author: "Jordan Walke", text: "This is *another* comment"}
-];
+var App = React.createClass({
+	render: function() {
+		return (
+			<div className="App">
+				<h1>App</h1>
+				<Signup />
+			</div>
+		);
+	}
+});
 
 React.render(
-	<CommentBox data={data} />,
+	<App />,
 	document.getElementById('content')
 );

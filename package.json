@@ -25,6 +25,7 @@
   "dependencies": {
     "browserify": "^13.0.0",
     "del": "^2.2.0",
+    "dropzone": "^4.3.0",
     "gulp-util": "^3.0.7",
     "react": "^0.13.3",
     "reactify": "^1.1.1",

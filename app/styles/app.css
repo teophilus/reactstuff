@@ -2,6 +2,12 @@ body {
   font-family: sans-serif;
   background: #fff; }
 
+#pop .heading .preview, #pop .subtitle .preview, #pop .disclaimer .preview {
+  border: solid 0px;
+  width: 100%;
+  background: none;
+  resize: none; }
+
 #container {
   height: 100%;
   width: 100%;
@@ -16,25 +22,27 @@ body {
   font-family: 'Lato', sans-serif;
   position: relative;
   top: 50%;
-  height: 275px;
+  height: 295px;
   width: 600px;
   background: #000;
   color: #fff;
-  margin: -137.5px auto 0 auto;
+  margin: -147.5px auto 0 auto;
   z-index: 9000;
   border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px; }
   #pop .content {
     margin: 0 10%; }
-  #pop .heading {
+  #pop .heading, #pop .heading .preview {
     text-transform: uppercase;
     font-size: 24px;
-    margin-bottom: 5px; }
-  #pop .subtitle {
+    margin-bottom: 5px;
+    color: #fff;
+    font-weight: bold; }
+  #pop .subtitle, #pop .subtitle .preview {
     font-size: 13px;
     color: #a5a5a5; }
-  #pop .disclaimer {
+  #pop .disclaimer, #pop .disclaimer .preview {
     font-size: 9px;
     color: #a5a5a5; }
   #pop .button, #pop .input {

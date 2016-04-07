@@ -9,12 +9,18 @@ body {
 	-ms-border-radius: $radius;
 }
 
-$pop-height: 275px;
+$pop-height: 295px;
 $pop-width: 600px;
 $primary-color: #fff;
 $primary-color-inverse: invert($primary-color);
 $secondary-color: #a5a5a5;
 
+%input-default {
+	border: solid 0px;
+	width: 100%;
+	background: none;
+	resize: none;
+}
 
 #container {
 	// position: absolute;
@@ -57,16 +63,33 @@ $secondary-color: #a5a5a5;
 		text-transform: uppercase;
 		font-size: 24px;
 		margin-bottom: 5px;
+		color: $primary-color;
+		font-weight: bold;
+
+		.preview {
+			@extend %input-default;
+			@extend .heading;
+		}
 	}
 
 	.subtitle {
 		font-size: 13px;
 		color: $secondary-color;
+
+		.preview {
+			@extend %input-default;
+			@extend .subtitle;
+		}
 	}
 
 	.disclaimer {
 		font-size: 9px;
 		color: $secondary-color;
+
+		.preview {
+			@extend %input-default;
+			@extend .disclaimer;
+		}
 	}
 
 	.button, .input {

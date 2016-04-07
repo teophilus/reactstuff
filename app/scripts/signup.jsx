@@ -1,4 +1,5 @@
 var React = require('react');
+var TransitionOption = require('./transition-option');
 
 var Signup = React.createClass({
 
@@ -8,7 +9,8 @@ var Signup = React.createClass({
 	        title: 'Title',
 	        description: 'Description',
 	        disclaimer: 'We hate spam as much as you do, and you can unsubscribe anytime.',
-	        button: 'sign up'
+	        button: 'sign up',
+	        transition: ''
 	    };
 	},
 
@@ -42,7 +44,20 @@ var Signup = React.createClass({
 		})
 	},
 
-	render: function() {
+	handleTransitionChange: function(e) {
+		this.setState({
+			transition: e.transition + ' ' + 'animated'
+		})
+		setTimeout(this.reset, 2500)
+	},
+
+	reset: function() {
+		this.setState({
+			transition: ''
+		})
+	},
+
+	render() {
 		return (
 			<div className="wrapper">
 				<form className="configuration">
@@ -79,20 +94,36 @@ var Signup = React.createClass({
 						onChange={this.handleButtonChange}
 					/>
 					<br/>
+					<TransitionOption onChange={this.handleTransitionChange}/>
 					<input type="submit" value="Save" />
 				</form>
 				<div id="container">
-					<div id="pop">
+					<div id="pop" ref="transitionObj" className={this.state.transition}>
 						<div className="layout">
 							<img className="image" src={this.state.image} alt=""/>
 							<div className="content">
-								<h1 className="heading">{this.state.title}</h1>
-								<small className="subtitle">{this.state.description}</small>
+								<h1 className="heading">
+									<input className="preview" type="text"
+									value={this.state.title}
+									onChange={this.handleTitleChange}
+									/>
+								</h1>
+								<small className="subtitle">
+									<textarea className="preview" rows="1" type="text"
+									value={this.state.description}
+									onChange={this.handleDescriptionChange}
+									/>
+								</small>
 								<form>
 									<input className="input" type="text" placeholder="Email Address" />
 									<button type="submit" className="button">{this.state.button}</button>
 								</form>
-								<small className="disclaimer">{this.state.disclaimer}</small>
+								<small className="disclaimer">
+									<textarea className="preview" type="text"
+									value={this.state.disclaimer}
+									onChange={this.handleDisclaimerChange}
+									/>
+								</small>
 							</div>
 						</div>
 					</div>

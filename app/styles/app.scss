@@ -92,7 +92,7 @@ $secondary-color: #a5a5a5;
 		}
 	}
 
-	.button, .input {
+	.button, .input, .button-preview, .input-preview {
 		border-style: solid;
 		border-width: 2px;
 		border-color: $primary-color;
@@ -150,4 +150,25 @@ $secondary-color: #a5a5a5;
 	}
 }
 
+// core dropzone
+
 @import 'dropzone';
+
+
+// email pop specific
+
+.dropzone {
+	
+	$image-height: 89px;
+	$image-width: $pop-width;
+
+	.image, .dropzone {
+		height: $image-height;
+		width: $image-width;
+	}
+
+	.dz-message {
+		line-height: $image-height;
+		height: $image-height;
+	}
+}

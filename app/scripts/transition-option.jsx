@@ -11,21 +11,21 @@ var transitionOption = React.createClass({
 	handleTransitionChange: function(e) {
 		this.props.onChange({
 			transition: e.target.value
-		})
+		});
 		this.setState({
 			currentTransition: e.target.value
-		})
+		});
 	},
 
 	onPreviewClick: function(e) {
 		e.preventDefault()
 		this.props.onChange({
 			transition: this.state.currentTransition
-		})
+		});
 	},
 
 
-    render() {
+    render: function() {
         return (
         	<div className="demo-container">
         		<select name="" id="" className="js--animations" onChange={this.handleTransitionChange}>

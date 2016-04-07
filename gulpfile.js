@@ -72,7 +72,9 @@ gulp.task('clean', require('del').bind(null, config.paths.distFolder));
 // 'minify Main App,js' move necessary files to dist
 gulp.task('minAppJs', function() {
 	gulp.src(config.paths.mainAppJs)
-	.pipe(streamify(uglify()))
+	.pipe(streamify(uglify().on('error', function(e){
+		console.log(e);
+	})))
 	.pipe(gulp.dest(config.paths.distFolder + config.paths.jsDir));
 });
 

@@ -248,6 +248,7 @@
     }
     .dz-message {
       cursor: pointer;
+      color: gray;
       * {
         cursor: pointer;
       }
@@ -269,7 +270,7 @@
   }
   .dz-message {
     text-align: center;
-    margin: 2em 0;
+    // margin: 2em 0;
   }
   .dz-preview {
     position: relative;

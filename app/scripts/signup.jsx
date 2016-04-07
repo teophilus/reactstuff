@@ -17,47 +17,47 @@ var Signup = React.createClass({
 	handleImageChange: function(e) {
 		this.setState({
 			image: e.target.value
-		})
+		});
 	},
 
 	handleTitleChange: function(e) {
 		this.setState({
 			title: e.target.value
-		})
+		});
 	},
 
 	handleDescriptionChange: function(e) {
 		this.setState({
 			description: e.target.value
-		})
+		});
 	},
 
 	handleDisclaimerChange: function(e) {
 		this.setState({
 			disclaimer: e.target.value
-		})
+		});
 	},
 
 	handleButtonChange: function(e) {
 		this.setState({
 			button: e.target.value
-		})
+		});
 	},
 
 	handleTransitionChange: function(e) {
 		this.setState({
 			transition: e.transition + ' ' + 'animated'
-		})
+		});
 		setTimeout(this.reset, 2500)
 	},
 
 	reset: function() {
 		this.setState({
 			transition: ''
-		})
+		});  
 	},
 
-	render() {
+	render: function() {
 		return (
 			<div className="wrapper">
 				<form className="configuration">
@@ -71,25 +71,6 @@ var Signup = React.createClass({
 					<input
 						type="text"
 						placholder="enter title"
-						value={this.state.title}
-						onChange={this.handleTitleChange}
-					/>
-					<br/>
-					<textarea
-						placholder="enter title"
-						value={this.state.description}
-						onChange={this.handleDescriptionChange}
-					/>
-					<br/>
-					<textarea
-						placholder="enter title"
-						value={this.state.disclaimer}
-						onChange={this.handleDisclaimerChange}
-					/>
-					<br/>
-					<input
-						type="text"
-						placholder="enter title"
 						value={this.state.button}
 						onChange={this.handleButtonChange}
 					/>
@@ -98,11 +79,10 @@ var Signup = React.createClass({
 					<input type="submit" value="Save" />
 				</form>
 				<div id="container">
-					<div id="pop" ref="transitionObj" className={this.state.transition}>
+					<div id="pop" className="pop-email" ref="transitionObj" className={this.state.transition}>
 						<div className="layout">
 							{/* <img className="image" src={this.state.image} alt=""/> */}
-							<form action="/file-upload" className="dropzone" id="my-awesome-dropzone">
-								{/* <input type="file" name="file" /> */}
+							<form action="/file-upload" className="dropzone" id="email-dropzone">
 							</form>
 
 							<div className="content">
@@ -113,7 +93,9 @@ var Signup = React.createClass({
 									/>
 								</h1>
 								<small className="subtitle">
-									<textarea className="preview" rows="1" type="text"
+									<textarea className="preview"
+									rows="1"
+									type="text"
 									value={this.state.description}
 									onChange={this.handleDescriptionChange}
 									/>
@@ -123,7 +105,9 @@ var Signup = React.createClass({
 									<button type="submit" className="button">{this.state.button}</button>
 								</form>
 								<small className="disclaimer">
-									<textarea className="preview" type="text"
+									<textarea className="preview"
+									rows="1"
+									type="text"
 									value={this.state.disclaimer}
 									onChange={this.handleDisclaimerChange}
 									/>

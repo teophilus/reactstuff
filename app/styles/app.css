@@ -45,7 +45,7 @@ body {
   #pop .disclaimer, #pop .disclaimer .preview {
     font-size: 9px;
     color: #a5a5a5; }
-  #pop .button, #pop .input {
+  #pop .button, #pop .input, #pop .button-preview, #pop .input-preview {
     border-style: solid;
     border-width: 2px;
     border-color: #fff;
@@ -275,7 +275,8 @@ body {
     .dropzone.dz-clickable * {
       cursor: default; }
     .dropzone.dz-clickable .dz-message {
-      cursor: pointer; }
+      cursor: pointer;
+      color: gray; }
       .dropzone.dz-clickable .dz-message * {
         cursor: pointer; }
   .dropzone.dz-started {
@@ -287,8 +288,7 @@ body {
     .dropzone.dz-drag-hover .dz-message {
       opacity: 0.5; }
   .dropzone .dz-message {
-    text-align: center;
-    margin: 2em 0; }
+    text-align: center; }
   .dropzone .dz-preview {
     position: relative;
     display: inline-block;
@@ -482,5 +482,13 @@ body {
         border-left: 6px solid transparent;
         border-right: 6px solid transparent;
         border-bottom: 6px solid #be2626; }
+
+.dropzone .image, .dropzone .dropzone {
+  height: 89px;
+  width: 600px; }
+
+.dropzone .dz-message {
+  line-height: 89px;
+  height: 89px; }
 
 /*# sourceMappingURL=app.css.map */

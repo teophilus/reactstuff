@@ -100,7 +100,11 @@ var Signup = React.createClass({
 				<div id="container">
 					<div id="pop" ref="transitionObj" className={this.state.transition}>
 						<div className="layout">
-							<img className="image" src={this.state.image} alt=""/>
+							{/* <img className="image" src={this.state.image} alt=""/> */}
+							<form action="/file-upload" className="dropzone" id="my-awesome-dropzone">
+								{/* <input type="file" name="file" /> */}
+							</form>
+
 							<div className="content">
 								<h1 className="heading">
 									<input className="preview" type="text"

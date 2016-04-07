@@ -2,7 +2,7 @@ var gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
 var sass        = require('gulp-sass');
 var concat      = require('gulp-concat');
-var gutil		= require('gulp-util');
+var gutil       = require('gulp-util');
 var source      = require('vinyl-source-stream');
 var browserify  = require('browserify');
 var watchify    = require('watchify');
@@ -16,6 +16,7 @@ var minify      = require('gulp-minify');
 var uglify      = require('gulp-uglify');
 var htmlmin     = require('gulp-htmlmin');
 var streamify   = require('gulp-streamify');
+var plumber     = require('gulp-plumber');
 
 // Paths 
 var config = require('./gulp-config.json');
@@ -35,6 +36,10 @@ gulp.task('serve', ['sass', 'ify'], function() {
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
     return gulp.src(config.paths.sassFiles)
+	    .pipe(plumber(function(error) {
+	        gutil.log(gutil.colors.red(error.message));
+	        this.emit('end');
+	    }))
     	.pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(sourcemaps.write('./'))

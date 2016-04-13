@@ -30,6 +30,7 @@
     "dropzone": "^4.3.0",
     "gulp-util": "^3.0.7",
     "react": "^0.14.8",
+    "react-color": "^2.0.0",
     "reactify": "^1.1.1",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"

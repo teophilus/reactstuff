@@ -2,6 +2,7 @@ var React = require('react');
 var Signup = require('./signup');
 var Dropzone = require("dropzone");
 var Autosize = require("autosize");
+var $ = require("jquery");
 
 var App = React.createClass({
 	render: function() {

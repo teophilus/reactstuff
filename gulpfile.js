@@ -7,6 +7,7 @@ var source      = require('vinyl-source-stream');
 var browserify  = require('browserify');
 var watchify    = require('watchify');
 var reactify    = require('reactify');
+var babelify    = require('babelify');
 var del         = require('del');
 var usemin      = require('gulp-usemin');
 var sourcemaps  = require('gulp-sourcemaps');
@@ -18,7 +19,7 @@ var htmlmin     = require('gulp-htmlmin');
 var streamify   = require('gulp-streamify');
 var plumber     = require('gulp-plumber');
 
-// Paths 
+// Paths
 var config = require('./gulp-config.json');
 
 // Static Server + watching scss/html files
@@ -51,7 +52,7 @@ gulp.task('sass', function() {
 gulp.task('ify', function() {
 	var bundler = watchify(browserify({
 		entries: ['./app/scripts/app.jsx'], //main entry point
-		transform: ['reactify'],
+		transform: [reactify, babelify],
 		extensions: ['.jsx'],
 		debug: true,
 		cache: {},
@@ -83,7 +84,7 @@ gulp.task('minAppJs', function() {
 	.pipe(gulp.dest(config.paths.distFolder + config.paths.jsDir));
 });
 
-// 'usemin' looks at 'html' files for the doc blocks to concatenate css & js, uglify js, minifies html, adds hashes to js & css to bypass caches  
+// 'usemin' looks at 'html' files for the doc blocks to concatenate css & js, uglify js, minifies html, adds hashes to js & css to bypass caches
 gulp.task('usemin', function() {
 	gulp.src(config.paths.indexFiles)
 		.pipe(usemin({

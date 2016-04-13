@@ -54,7 +54,7 @@ var Signup = React.createClass({
 	reset: function() {
 		this.setState({
 			transition: ''
-		});  
+		});
 	},
 
 	render: function() {

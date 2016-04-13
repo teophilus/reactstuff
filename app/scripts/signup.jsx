@@ -12,45 +12,39 @@ class Signup extends React.Component {
 			button: 'sign up',
 			transition: ''
 		}
-		this.handleImageChange = this.handleImageChange.bind(this)
-		this.handleTitleChange = this.handleTitleChange.bind(this)
-		this.handleDescriptionChange = this.handleDescriptionChange.bind(this)
-		this.handleDisclaimerChange = this.handleDisclaimerChange.bind(this)
-		this.handleButtonChange = this.handleButtonChange.bind(this)
-		this.handleTransitionChange = this.handleTransitionChange.bind(this)
 	}
 
-	handleImageChange(e) {
+	handleImageChange = (e) => {
 		this.setState({
 			image: e.target.value
 		})
 	}
 
-	handleTitleChange(e) {
+	handleTitleChange = (e) => {
 		this.setState({
 			title: e.target.value
 		})
 	}
 
-	handleDescriptionChange(e) {
+	handleDescriptionChange = (e) => {
 		this.setState({
 			description: e.target.value
 		})
 	}
 
-	handleDisclaimerChange(e) {
+	handleDisclaimerChange = (e) => {
 		this.setState({
 			disclaimer: e.target.value
 		})
 	}
 
-	handleButtonChange(e) {
+	handleButtonChange = (e) => {
 		this.setState({
 			button: e.target.value
 		})
 	}
 
-	handleTransitionChange(e) {
+	handleTransitionChange = (e) => {
 		this.setState({
 			transition: e.transition + ' ' + 'animated'
 		})

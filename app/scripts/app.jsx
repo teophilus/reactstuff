@@ -1,29 +1,26 @@
-var React = require('react');
-var ReactDOM = require('react-dom')
-var Signup = require('./signup');
-var Dropzone = require("dropzone");
-var Autosize = require("autosize");
-var $ = require("jquery");
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Signup from './signup'
+import Dropzone from 'dropzone'
+import Autosize from 'autosize'
+import $ from 'jquery'
 
-var App = React.createClass({
-	render: function() {
+export default class App extends React.Component {
+	render() {
 		return (
 			<div className="App">
 				<Signup />
 			</div>
-		);
+		)
 	}
-});
+}
 
-ReactDOM.render(
-	<App />,
-	document.getElementById('content')
-);
+ReactDOM.render(<App />, document.getElementById('content'))
 
 // resizes text areas
-Autosize($('textarea'));
+Autosize($('textarea'))
 
-//hilights input text on click
-$("input[type='text'],textarea").on("click", function () {
-   $(this).select();
-});
+// hilights input text on click
+$('input[type="text"],textarea').on('click', function () {
+	$(this).select()
+})

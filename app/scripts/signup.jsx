@@ -1,63 +1,69 @@
-var React = require('react');
-var TransitionOption = require('./transition-option');
+import React from 'react'
+import TransitionOption from './transition-option'
 
-var Signup = React.createClass({
+class Signup extends React.Component {
+	constructor(props) {
+		super(props)
+		this.state = {
+			image: 'http://pop.projecttwo77.com/images/hero.jpg',
+			title: 'Title',
+			description: 'Description',
+			disclaimer: 'We hate spam as much as you do, and you can unsubscribe anytime.',
+			button: 'sign up',
+			transition: ''
+		}
+		this.handleImageChange = this.handleImageChange.bind(this)
+		this.handleTitleChange = this.handleTitleChange.bind(this)
+		this.handleDescriptionChange = this.handleDescriptionChange.bind(this)
+		this.handleDisclaimerChange = this.handleDisclaimerChange.bind(this)
+		this.handleButtonChange = this.handleButtonChange.bind(this)
+		this.handleTransitionChange = this.handleTransitionChange.bind(this)
+	}
 
-	getInitialState: function() {
-	    return {
-	    	image: 'http://pop.projecttwo77.com/images/hero.jpg',
-	        title: 'Title',
-	        description: 'Description',
-	        disclaimer: 'We hate spam as much as you do, and you can unsubscribe anytime.',
-	        button: 'sign up',
-	        transition: ''
-	    };
-	},
-
-	handleImageChange: function(e) {
+	handleImageChange(e) {
 		this.setState({
 			image: e.target.value
-		});
-	},
+		})
+	}
 
-	handleTitleChange: function(e) {
+	handleTitleChange(e) {
 		this.setState({
 			title: e.target.value
-		});
-	},
+		})
+	}
 
-	handleDescriptionChange: function(e) {
+	handleDescriptionChange(e) {
 		this.setState({
 			description: e.target.value
-		});
-	},
+		})
+	}
 
-	handleDisclaimerChange: function(e) {
+	handleDisclaimerChange(e) {
 		this.setState({
 			disclaimer: e.target.value
-		});
-	},
+		})
+	}
 
-	handleButtonChange: function(e) {
+	handleButtonChange(e) {
 		this.setState({
 			button: e.target.value
-		});
-	},
+		})
+	}
 
-	handleTransitionChange: function(e) {
+	handleTransitionChange(e) {
 		this.setState({
 			transition: e.transition + ' ' + 'animated'
-		});
+		})
 		setTimeout(this.reset, 2500)
-	},
+	}
 
-	reset: function() {
+	reset() {
 		this.setState({
 			transition: ''
-		});
-	},
+		})
+	}
 
-	render: function() {
+	render() {
 		return (
 			<div className="wrapper">
 				<form className="configuration">
@@ -117,8 +123,8 @@ var Signup = React.createClass({
 					</div>
 				</div>
 			</div>
-		);
+		)
 	}
-});
+}
 
-module.exports = Signup;
+export default Signup

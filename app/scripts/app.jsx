@@ -1,4 +1,5 @@
 var React = require('react');
+var ReactDOM = require('react-dom')
 var Signup = require('./signup');
 var Dropzone = require("dropzone");
 var Autosize = require("autosize");
@@ -14,7 +15,7 @@ var App = React.createClass({
 	}
 });
 
-React.render(
+ReactDOM.render(
 	<App />,
 	document.getElementById('content')
 );

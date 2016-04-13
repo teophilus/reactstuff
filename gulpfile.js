@@ -52,7 +52,7 @@ gulp.task('sass', function() {
 gulp.task('ify', function() {
 	var bundler = watchify(browserify({
 		entries: ['./app/scripts/app.jsx'], //main entry point
-		transform: [reactify, babelify],
+		transform: ['reactify', 'babelify'],
 		extensions: ['.jsx'],
 		debug: true,
 		cache: {},

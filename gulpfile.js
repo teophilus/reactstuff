@@ -7,6 +7,7 @@ var source      = require('vinyl-source-stream');
 var browserify  = require('browserify');
 var watchify    = require('watchify');
 var reactify    = require('reactify');
+var babelify    = require('babelify');
 var del         = require('del');
 var usemin      = require('gulp-usemin');
 var sourcemaps  = require('gulp-sourcemaps');
@@ -51,7 +52,7 @@ gulp.task('sass', function() {
 gulp.task('ify', function() {
 	var bundler = watchify(browserify({
 		entries: ['./app/scripts/app.jsx'], //main entry point
-		transform: ['reactify'],
+		transform: [reactify, babelify],
 		extensions: ['.jsx'],
 		debug: true,
 		cache: {},

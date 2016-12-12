@@ -1,1 +1,1 @@
-{"version":3,"file":"app.css","sources":["app.scss"],"sourcesContent":["body {\n\tfont-family: sans-serif;\n\tbackground: #fff;\n}"],"mappings":"AAAA,IAAI,CAAC;EACJ,WAAW,EAAE,UAAW;EACxB,UAAU,EAAE,IAAK,GACjB","names":[],"sourceRoot":"/source/"}
+{"version":3,"file":"app.css","sources":["app.scss"],"sourcesContent":["body {\n\tfont-family: sans-serif;\n\tbackground: #fff;\n}"],"names":[],"mappings":"AAAA,AAAA,IAAI,CAAC;EACJ,WAAW,EAAE,UAAU;EACvB,UAAU,EAAE,IAAI,GAChB"}

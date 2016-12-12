@@ -1,12 +1,7 @@
 var React = require('react');
-var CommentBox = require('./comment-box');
+var ReactDOM = require('react-dom');
 
-var data = [
-  {id: 1, author: "Pete Hunt", text: "This is one comment"},
-  {id: 2, author: "Jordan Walke", text: "This is *another* comment"}
-];
-
-React.render(
-	<CommentBox data={data} />,
-	document.getElementById('content')
+ReactDOM.render(
+	<h1>Hello, World!</h1>,
+	document.getElementById('app')
 );

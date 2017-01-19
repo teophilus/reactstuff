@@ -5,6 +5,9 @@
 .image-box {
   
   display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 0 15px 15px 0;
 
   .image {
     max-height: 200px;

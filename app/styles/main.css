@@ -489,8 +489,15 @@ body {
   position: absolute;
   width: 1px; }
 
+.multi-asset {
+  display: flex;
+  flex-direction: row; }
+
 .image-box {
-  display: flex; }
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 0 15px 15px 0; }
   .image-box .image {
     max-height: 200px;
     max-width: 200px; }

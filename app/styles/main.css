@@ -490,8 +490,10 @@ body {
   width: 1px; }
 
 .image-box {
-  max-height: 200px;
-  max-width: 200px; }
+  display: flex; }
+  .image-box .image {
+    max-height: 200px;
+    max-width: 200px; }
   .image-box img {
     height: 100%;
     width: 100%; }

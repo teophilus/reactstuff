@@ -3,8 +3,13 @@
 // -----------------------------------------------------------------------------
 
 .image-box {
-  max-height: 200px;
-  max-width: 200px;
+  
+  display: flex;
+
+  .image {
+    max-height: 200px;
+    max-width: 200px;
+  }
 
   img {
     height: 100%;

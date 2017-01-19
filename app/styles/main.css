@@ -421,7 +421,7 @@ html {
  * Basic styles for links
  */
 a {
-  color: #e50050;
+  color: #108ee9;
   text-decoration: none; }
   a:hover, a:active, a:focus {
     color: #222222;
@@ -432,7 +432,7 @@ a {
  */
 body {
   color: #222222;
-  font: normal 125%/1.4 "Roboto", sans-serif; }
+  font: normal 100%/1.4 "Roboto", sans-serif; }
 
 /**
  * Clear inner floats
@@ -491,7 +491,8 @@ body {
 
 .multi-asset {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .image-box {
   display: flex;

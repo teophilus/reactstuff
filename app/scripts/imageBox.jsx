@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 export class ImageBox extends React.Component {
 
 	render() {
-		console.log(this)
 		return (
 			<div className="image-box" >
 				<div className="image">

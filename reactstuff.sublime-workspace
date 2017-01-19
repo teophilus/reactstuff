@@ -4,64 +4,60 @@
 		"selected_items":
 		[
 			[
-				"max-",
-				"max-width"
+				"send",
+				"send-form\t(index.ctp)"
 			],
 			[
-				"ca",
-				"capitalize"
+				"fon",
+				"font-weight\t(_user_list_manager.scss)"
 			],
 			[
-				"c",
-				"coi	counter-increment"
+				"log",
+				"log\tconsole"
 			],
 			[
-				"text",
-				"text-transform"
+				"console",
+				"log\tconsole"
 			],
 			[
-				"padd",
-				"padding-right"
+				"consoel",
+				"log\tconsole"
 			],
 			[
-				"di",
-				"d:ib	display:inline-block"
+				"co",
+				"console"
 			],
 			[
-				"spa",
-				"space-around"
+				"group",
+				"group-list\t(user_lists_user_list_view.ctp)"
 			],
 			[
-				"flex",
-				"flex-grow"
+				"fu",
+				"fun\tFunction"
 			],
 			[
-				"a",
-				"attributes"
+				"po",
+				"pos-a\tposition: absolute;"
 			],
 			[
-				"mode",
-				"model"
+				"icon",
+				"icon-cloud-upload\t(index.ctp)"
 			],
 			[
-				"for",
-				"for	for (…) {…} (Improved Native For-Loop)"
+				"border",
+				"border-box"
 			],
 			[
-				"tex",
-				"text-overflow"
+				"box-",
+				"box-sizing"
 			],
 			[
-				"font",
-				"font-weight"
+				"te",
+				"text-align"
 			],
 			[
 				"fl",
 				"flex"
-			],
-			[
-				"te",
-				"text-transform"
 			],
 			[
 				"line",
@@ -84,6 +80,10 @@
 				"height"
 			],
 			[
+				"text",
+				"text-align"
+			],
+			[
 				"p",
 				"padding"
 			],
@@ -94,6 +94,10 @@
 			[
 				"mar",
 				"margin-top"
+			],
+			[
+				"padd",
+				"padding-bottom"
 			],
 			[
 				"ma",
@@ -116,8 +120,16 @@
 				"no-padding"
 			],
 			[
+				"tex",
+				"text-align"
+			],
+			[
 				"off",
 				"off-black"
+			],
+			[
+				"flex",
+				"flex-flow"
 			],
 			[
 				"max",
@@ -140,12 +152,20 @@
 				"comment-reply-button"
 			],
 			[
+				"a",
+				"argument"
+			],
+			[
 				"border-",
 				"border-radius"
 			],
 			[
 				"ri",
 				"right"
+			],
+			[
+				"max-",
+				"max-height"
 			],
 			[
 				"import",
@@ -173,7 +193,7 @@
 			],
 			[
 				"fun",
-				"fun	Function"
+				"fun\tFunction"
 			],
 			[
 				"se",
@@ -233,11 +253,11 @@
 			],
 			[
 				"v",
-				"va	vertical-align"
+				"va\tvertical-align"
 			],
 			[
 				"i",
-				"incl	include …"
+				"incl\tinclude …"
 			],
 			[
 				"hr",
@@ -252,10 +272,6 @@
 				"pointer"
 			],
 			[
-				"po",
-				"pos-r	position: relative;"
-			],
-			[
 				"margin-",
 				"margin-left"
 			],
@@ -268,16 +284,8 @@
 				"border-top-left-radius"
 			],
 			[
-				"fon",
-				"font-size"
-			],
-			[
 				"border-top",
 				"border-top-right-radius"
-			],
-			[
-				"co",
-				"color"
 			],
 			[
 				"pos",
@@ -288,8 +296,16 @@
 				"background"
 			],
 			[
+				"di",
+				"display"
+			],
+			[
 				"copy-widge",
 				"copy-widget-button"
+			],
+			[
+				"font",
+				"font-size"
 			],
 			[
 				"dist",
@@ -317,7 +333,7 @@
 			],
 			[
 				"if",
-				"if	if …"
+				"if\tif …"
 			],
 			[
 				"en",
@@ -337,7 +353,7 @@
 			],
 			[
 				"h",
-				"h5	Tag"
+				"h5\tTag"
 			],
 			[
 				"background",
@@ -356,16 +372,20 @@
 				"background-color"
 			],
 			[
+				"c",
+				"c-basic\tBasic Comment"
+			],
+			[
 				"cr",
 				"create-new-project-button"
 			],
 			[
-				"create",
-				"create-new-project"
+				"ca",
+				"cancel-new-project-button"
 			],
 			[
-				"fu",
-				"function"
+				"create",
+				"create-new-project"
 			],
 			[
 				"pad",
@@ -391,6 +411,33 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 360,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/app.jsx",
+			"settings":
+			{
+				"buffer_size": 140,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "app/scripts/imageBox.jsx",
+			"file_size": 0,
+			"file_write_time": 131260487830000000,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -399,81 +446,77 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 92.0,
-		"last_filter": "ss:bab",
+		"height": 342.0,
+		"last_filter": "ins",
 		"selected_items":
 		[
 			[
-				"ss:bab",
-				"Set Syntax: JavaScript (Babel)"
-			],
-			[
-				"ss: bab",
-				"Set Syntax: JavaScript (Babel)"
-			],
-			[
-				"install",
+				"ins",
 				"Package Control: Install Package"
-			],
-			[
-				"ss: js",
-				"Set Syntax: JSX"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
 			],
 			[
 				"inst",
 				"Package Control: Install Package"
 			],
 			[
-				"ss:jsx",
-				"Set Syntax: JSX"
+				"UA",
+				"Code Folding: Unfold All"
 			],
 			[
-				"insta",
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"in",
 				"Package Control: Install Package"
 			],
 			[
-				"ss: ja",
-				"Set Syntax: JavaScript"
-			],
-			[
-				"remo",
-				"Package Control: Remove Package"
-			],
-			[
-				"ss:scss",
-				"Set Syntax: SCSS"
-			],
-			[
-				"ins",
+				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"remove pa",
-				"Package Control: Remove Package"
+				"ss:ctp",
+				"Set Syntax: HTML (CTP)"
 			],
 			[
-				"ss:js",
-				"Set Syntax: JavaScript"
+				"Ss:php",
+				"Set Syntax: PHP"
 			],
 			[
 				"instal",
 				"Package Control: Install Package"
 			],
 			[
-				"packa",
-				"Preferences: Browse Packages"
+				"Snippet: pr",
+				"Snippet: pull-request-bug"
 			],
 			[
-				"upda",
-				"Package Control: Upgrade Package"
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ss:html",
+				"Set Syntax: HTML"
 			],
 			[
 				"ss: html",
 				"Set Syntax: HTML"
+			],
+			[
+				"ss: ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss: js",
+				"Set Syntax: JavaScript"
 			],
 			[
 				"ss",
@@ -492,16 +535,20 @@
 				"Package Control: Upgrade Package"
 			],
 			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
 				"",
 				"Build: Cancel"
 			],
 			[
-				"Package Control: U",
-				"Package Control: Upgrade/Overwrite All Packages"
+				"packa",
+				"Package Control: Install Package"
 			],
 			[
-				"Package Control: ",
-				"Package Control: Upgrade Package"
+				"Package Control: U",
+				"Package Control: Upgrade/Overwrite All Packages"
 			],
 			[
 				"Snippet: ",
@@ -514,17 +561,13 @@
 			[
 				"upd",
 				"Package Control: Upgrade/Overwrite All Packages"
-			],
-			[
-				"pac",
-				"Package Control: Remove Package"
 			]
 		],
-		"width": 449.0
+		"width": 467.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 181.0,
 		"history":
 		[
 		]
@@ -540,75 +583,112 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/teonprudent/Sites/reactstuff"
+		"/Users/teonprudent/Sites/reactstuff",
+		"/Users/teonprudent/Sites/reactstuff/app",
+		"/Users/teonprudent/Sites/reactstuff/app/scripts"
 	],
 	"file_history":
 	[
-		"/Users/teonprudent/Sites/reactchat/slush-babel/src/index.hjs",
-		"/Users/teonprudent/Sites/React/package.json",
-		"/Users/teonprudent/Sites/React/src/routes/home/Home.js",
-		"/Users/teonprudent/Sites/React/src/routes/home/Home.scss",
-		"/Users/teonprudent/Sites/React/npm-debug.log",
-		"/Users/teonprudent/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-		"/Users/teonprudent/Sites/cloudbreak-ui/.gitignore",
-		"/Users/teonprudent/Sites/ReactNative/index.ios.js",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/admin_1/ui_colors.html",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/assets/pages/css/login-3-custom.css",
-		"/Users/teonprudent/Sites/cloudbreak-ui/login.html",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/gulpfile.js",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/sass/global/components/_colors.scss",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/sass/global/_colors.scss",
-		"/Users/teonprudent/Sites/cloudbreak-ui/elements.html",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/sass/layouts/layout/themes/creativedrive.scss",
-		"/Users/teonprudent/Sites/cloudbreak-ui/creativedrive_theme.html",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/assets/layouts/layout/css/custom.css",
-		"/Users/teonprudent/Downloads/metronic_v4.5.4 2/theme/gulpfile.js",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/admin_1/_cd_page_user_login_3.html",
-		"/Users/teonprudent/Sites/cloudbreak-ui/index.html",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/sass/pages/login-3.scss",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/sass/layouts/layout/custom.scss",
-		"/Users/teonprudent/Downloads/Simple-Line-Icons-Webfont/fonts/Simple-Line-Icons.svg",
-		"/Users/teonprudent/Sites/cloudbreak-ui/gulpfile.js",
-		"/Users/teonprudent/Sites/cloudbreak-ui/sylesheets/sass/layout.scss",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/assets/global/css/components-md.css",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/sass/bootstrap/_buttons.scss",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/sass/layouts/layout/themes/default.scss",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/admin_1/page_user_login_4.html",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/admin_1/page_user_login_3.html",
-		"/Users/teonprudent/Sites/cloudbreak-ui/custom-elements/header/cb-header.js",
-		"/Users/teonprudent/Sites/cloudbreak-ui/custom-elements/header/cb-header-inbox-item.js",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/assets/pages/scripts/login-4.js",
-		"/Users/teonprudent/Sites/cloudbreak-ui/conf/dev.js",
-		"/Users/teonprudent/Sites/cloudbreak-ui/package.json",
-		"/Users/teonprudent/Sites/cloudbreak-ui/bower.json",
-		"/Users/teonprudent/Sites/cloudbreak-ui/.bowerrc",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/admin_1/index_creative_drive.html",
-		"/Users/teonprudent/Sites/cloudbreak-ui/sylesheets/sass/_extend_metronic_theme.scss",
-		"/Users/teonprudent/Sites/cloudbreak-ui/sylesheets/sass/_extend_colors.scss",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/sass/layouts/layout/themes/creative-drive.scss",
-		"/Users/teonprudent/Sites/cloudbreak-ui/server.js",
-		"/Users/teonprudent/Sites/cloudbreak-ui/scripts/app.js",
-		"/Users/teonprudent/Sites/cloudbreak-ui/scripts/server.js",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/admin_1/index.html",
-		"/Users/teonprudent/Sites/cloudbreak-ui/readme.md",
-		"/Users/teonprudent/Sites/cloudbreak-ui/metronic/theme/admin_1/app_calendar.html",
-		"/Users/teonprudent/cloudbreak-ui/.gitignore",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/vendors/realtimejs/src/Templates/Datatable.FeatureItem.Paginator.Dropdown.hbs",
-		"/Users/teonprudent/Library/Application Support/Sublime Text 3/Packages/Sublime Packages/pull-request-feature.sublime-snippet",
+		"/Users/teonprudent/Sites/reactstuff/app/scripts/imageBox.jsx",
+		"/Users/teonprudent/Library/Application Support/Sublime Text 3/Packages/Babel Snippets/react_component_class.sublime-snippet",
+		"/Users/teonprudent/Library/Application Support/Sublime Text 3/Packages/Babel Snippets/react_componentWillMount_(class).sublime-snippet",
+		"/Users/teonprudent/Sites/reactstuff/gulpfile.js",
+		"/Users/teonprudent/Sites/reactstuff/.babelrc",
+		"/Users/teonprudent/Sites/reactstuff/.eslintrc.js",
+		"/Users/teonprudent/Sites/reactstuff/package.json",
+		"/Users/teonprudent/Sites/reactstuff/app/styles/themes/README.md",
+		"/Users/teonprudent/Sites/reactstuff/app/styles/app.scss",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/js/global.js",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/elements/email/html/error_email.ctp",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/email_preview/index.ctp",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/controllers/email_preview_controller.php",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/.gitignore",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/controllers/manage_controller.php",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/cake/libs/controller/pages_controller.php",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/js/user_picker.js",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/utilities/_spacers.scss",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/timemanage/ajax_dialog_request_queue_tickets.ctp",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/layouts/approve.ctp",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/approve/main.scss",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/timemanage/main.scss",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/components/_user_list_manager.scss",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/components/_radio_buttons.scss",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/layouts/timemanage.ctp",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/js/bulk_user_picker.js",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/global/handlebars/bulk_user_picker_view.ctp",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/components/_bulk_user_picker.scss",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/components/_user_selection.scss",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/timemanage/ajax_ticket_queue_grid_batch_edit.ctp",
+		"/Users/teonprudent/Downloads/main.css (3).map",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/cross_suite/reset.css",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/global/handlebars/user_picker_view.ctp",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/manage/get_user_selections.ctp",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/components/_buttons.scss",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/abstracts/_variables.scss",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/cross_suite/cross_suite_global.css",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/global/handlebars/user_lists_app_view.ctp",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/js/user_lists.js",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/ui/approve_layout.ctp",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/cross_suite/cross_suite_dark.css",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/template/globals.css",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/cross_suite/global.less",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/global/handlebars/user_lists_user_card_view.ctp",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/global/handlebars/user_lists_user_list_view.ctp",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/global/handlebars/user_lists_shared_list_view.ctp",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/cross_suite/cross_suite_global.less",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/components/_ui_overlay.scss",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/js/approve.js",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/approve/approve.less",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/js/timemanage/timemanage.js",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/js/alertify/themes/alertify.core.css",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/vendor/kreate_technology/share-plugin/share_ng/webroot/js/global.js",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/js/alertify/themes/alertify.uber_light.css",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/js/alertify/themes/alertify.default.css",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/layouts/upload_manager.ctp",
 		"/Users/teonprudent/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/Manage/Views/ContactSheetItem.js",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/js/timeshare/share.js",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/user_list_manager/main.scss",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/user_selection/main.scss",
+		"/Users/teonprudent/Desktop/169.psd.xml",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/user_list_manager/_buttons.scss",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/timemanage/ajax_dialog_create_tickets_from_csv.ctp",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/user_list_manager/main.css",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/elements/javascript_layout.ctp",
+		"/Users/teonprudent/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/.sass-lint.yaml",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/.sass-lint.yaml",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/webroot/css/approve/approve.css",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/approve/index.ctp",
+		"/Users/teonprudent/dockertime/repos/realtimeprocess-development/app/views/elements/approve/approve_folders.ctp",
+		"/Users/teonprudent/Downloads/timeshare.less",
+		"/Users/teonprudent/dockertime/repos/share-plugin/share_ng/webroot/js/timeshare/share.js",
+		"/Users/teonprudent/dockertime/repos/share/app/webroot/css/components/_message_preferences.scss",
+		"/Users/teonprudent/Library/Application Support/Sublime Text 3/Packages/Seti_UI/Seti_orig.sublime-theme",
+		"/Users/teonprudent/dockertime/repos/share/README.md",
+		"/Users/teonprudent/dockertime/repos/share/app/webroot/css/timeshare.scss",
+		"/Users/teonprudent/dockertime/repos/share/app/webroot/css/_variables.scss",
+		"/Users/teonprudent/Library/Application Support/Sublime Text 3/Packages/Seti_UI/messages.json",
+		"/Users/teonprudent/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
 		"/Users/teonprudent/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/Users/teonprudent/vm/app/precise/catclaw/gulpfile.js",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/css/refactor/main.scss",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/_hbt.php",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/views/ui/404_error.ctp",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/views/ui/500_error.ctp",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/50x.php",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/50x.html",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/vendors/Materialize/sass/components/_modal.scss",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/views/default/track/index.ctp",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/Manage/Views/TicketDetails.js",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/css/refactor/_label_picker.scss",
+		"/Users/teonprudent/dockertime/repos/share/app/webroot/js/key.js",
+		"/Users/teonprudent/dockertime/repos/share/app/views/layouts/share.ctp",
+		"/Users/teonprudent/Sites/odo/ios/odo/Images.xcassets/LaunchImage.launchimage/Contents.json",
+		"/Users/teonprudent/dockertime/repos/share/app/views/themed/walmart/elements/table.ctp",
+		"/Users/teonprudent/dockertime/repos/share/app/vendors/aws-sdk-2/Aws/S3/S3Signature.php",
+		"/Users/teonprudent/vm/app/precise/share-plugin/share_ng/views/uploads/show_upload_window.ctp",
+		"/Users/teonprudent/vm/app/precise/share-plugin/share_ng/views/uploads/show_download_window.ctp",
+		"/Users/teonprudent/vm/app/precise/share-plugin/share_ng/views/share/view_te_asset_details.ctp",
+		"/Users/teonprudent/vm/app/precise/share-plugin/share_ng/views/share/view_details.ctp",
+		"/Users/teonprudent/vm/app/precise/share-plugin/share_ng/views/share/file_upload_modal.ctp",
+		"/Users/teonprudent/vm/app/precise/share-plugin/share_ng/views/search/advanced_search.ctp",
+		"/Users/teonprudent/vm/app/precise/share-plugin/share_ng/views/layouts/share.ctp",
+		"/Users/teonprudent/vm/app/precise/share-plugin/share_ng/views/layouts/public.ctp",
+		"/Users/teonprudent/vm/app/precise/share-plugin/share_ng/views/downloads/download_zip.ctp",
+		"/Users/teonprudent/vm/app/precise/share-plugin/share_ng/views/ajax/wait_for_download.ctp",
+		"/Users/teonprudent/vm/app/precise/share-plugin/share_ng/views/share/download_approval_dashboard.ctp",
+		"/Users/teonprudent/vm/app/precise/share-plugin/share_ng/webroot/js/global.js",
+		"/Users/teonprudent/vm/app/precise/share-plugin/share_ng/webroot/css/timeshare/timeshare.less",
+		"/Users/teonprudent/vm/app/precise/share-plugin/share_ng/views/share/download_request_approval.ctp",
 		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/css/timetrack/timetrack_v2.scss",
 		"/Users/teonprudent/vm/app/precise/catclaw/app/views/layouts/timetrack.ctp",
 		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/vendors/Materialize/sass/components/_variables.scss",
@@ -623,6 +703,7 @@
 		"/Users/teonprudent/vm/app/precise/catclaw/app/views/layouts/1/manage/index.ctp",
 		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/Manage/Common/HandlebarsHelpers.js",
 		"/Users/teonprudent/vm/app/precise/catclaw/app/views/elements/cross_suite/layout_header_nav.ctp",
+		"/Users/teonprudent/vm/app/precise/catclaw/app/views/default/track/index.ctp",
 		"/Users/teonprudent/vm/app/precise/catclaw/app/views/layouts/timetrack_v3.ctp",
 		"/Users/teonprudent/vm/app/precise/catclaw/app/views/layouts/1/manage_dev/index.ctp",
 		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/Manage/Views/ContactSheetDashboard.js",
@@ -632,57 +713,24 @@
 		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/vendors/Materialize/sass/components/_roboto.scss",
 		"/Users/teonprudent/vm/app/precise/catclaw/app/views/layouts/main.ctp",
 		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/Manage/Datatable/Columns/Actions.js",
+		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/css/refactor/_label_picker.scss",
 		"/Users/teonprudent/vm/app/precise/catclaw/package.json",
-		"/Users/teonprudent/vm/app/precise/catclaw/README.md",
-		"/Users/teonprudent/vm/app/precise/realtime-ng/skuworkflow/app/webroot/js/manage.js",
-		"/Users/teonprudent/vm/app/precise/catclaw/bower.json",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/css/timetrack/timetrack_v2.css",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/vendors/Materialize/sass/components/_form.scss",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/css/cross_suite/cross_suite_global.css",
-		"/Users/teonprudent/vm/app/precise/catclaw/.gitignore",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/css/cross_suite/cross_suite_global.less",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/css/refactor/.sass-cache/8a37b100b8af28ee1ca10d3a99dbd44f2a0e142f/_form.scssc",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/css/refactor/main.css",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/Track/Views/DatatableView.js",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/config/klient/accounts/7.json",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/css/dashboard_color_picker.less",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/Manage/Views/Main.js",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/vendors/Materialize/sass/components/_tabs.scss",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/vendors/realtimejs/src/Templates/Datatable.Columns.Actions.hbs",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/Manage/Views/StubbedDashboard.js",
-		"/Users/teonprudent/vm/app/precise/realtime-ng/shared/app/views/themed/limited/elements/timemanage/milestones_and_supporting_documents.ctp",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/views/ui/manage-material-ui.ctp",
-		"/Users/teonprudent/vm/app/precise/realtime-ng/walmartist/app/webroot/js/timemanage/timemanage.js",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/Manage/Datatable/Columns/Checkbox.js",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/vendors/realtimejs/src/Datatable/Columns/Checkbox.js",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/Realtime/Datatable/Views/Datatable.js",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/vendors/Materialize/sass/components/_collapsible.scss",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/views/ui/_contact_sheet.php",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/Manage/Views/DashboardContainer.js",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/Track/dashboard/Dashboard.js",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/vendors/materialize/sass/components/_color.scss",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/vendors/materialize/sass/components/_variables.scss",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/css/refactor/main.css.map",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/views/default/manage/index.ctp",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/views/layouts/timemanage.ctp",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/views/ui/_table.php",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/css/refactor/.sass-cache/f4c624fb8d64edfbb6304e198576005955025ab2/main.scssc",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/vendors/materialize/sass/components/_roboto.scss",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/vendors/materialize/sass/components/_buttons.scss",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/css/refactor/manage.scss",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/vendors/materialize/sass/components/_typography.scss",
-		"/Users/teonprudent/vm/app/precise/catclaw/app/webroot/js/vendors/materialize/sass/components/_navbar.scss"
+		"/Users/teonprudent/vm/app/precise/catclaw/gulpfile.js",
+		"/Users/teonprudent/vm/app/precise/catclaw/README.md"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
-			"/Users/teonprudent/Sites/cloudbreak-ui",
+			"/Users/teonprudent/dockertime/repos/realtimeprocess-development",
+			"/Users/teonprudent/dockertime/repos/share-plugin",
+			"/Users/teonprudent/dockertime/repos/share",
+			"/Users/teonprudent/vm/app/precise/share-plugin",
 			"/Users/teonprudent/vm/app/precise/catclaw",
 			"/Users/teonprudent/vm/app/precise/realtime-ng",
 			"/Users/teonprudent/Sites/othn_fresh",
@@ -695,134 +743,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			".pipe",
-			"$component-colors",
-			"\"#",
+			"babelify",
+			"import",
+			"Track.",
+			"Track.event(\"view_asset\", { asset_id: opt.asset_id });",
+			"Track.event(\"move_assets\", trackEventData);",
+			"Track.error(\"share.folder_assets\",\"img_not_load\", current_folder_id+\"|\"+get_asset_id);",
+			"Track.error(location, \"img_not_load\", asset_id);",
+			"Track.error(\"advance_search.asset\",\"img_not_load\", asset_id);\n",
+			"Track.",
+			"window.Track && Track.init();",
 			";",
-			";\n",
-			"  background: ",
-			".foo",
-			"green",
-			"Green",
-			"green",
-			".green:not",
-			"green",
-			"./",
-			"./sass",
-			"./sass/",
-			"..",
-			"scss",
-			"map",
-			"use-map",
-			"usemap",
-			"src",
-			"app.js",
-			"../",
-			"[",
-			"▸",
-			"request-details",
-			"btn blue waves-effect waves-light",
-			"paginator_dropdown",
-			".paginate_button",
-			"paginate",
-			"pagination",
-			"paginate_button",
-			"items selected",
-			"contactsheet-dashboard-view",
-			"btn-flat",
-			"paginate_button next",
-			"#filter-view",
-			"RT-datatable-header-feature-items",
-			"RT-datatable-header",
-			"RT-datatable-header-feature-items",
-			"asset",
-			"manage",
-			"\"asset\"",
-			".asset",
-			"h6",
-			"approval-tool",
-			";",
-			"department",
-			"debug",
-			"contactsheet-item",
-			"contactsheet",
-			"<!--",
-			"<!",
-			"meta",
-			"_",
-			"asset",
-			"shot date",
-			"$medium-and-down",
-			"$medium-and-down    ",
-			"1px 1px 3px #999",
-			"    ",
-			"<span class=\"label\">Dashboard</span>",
-			"<!-- end main content panel with fluid layout -->",
-			"groupActivityByDate",
+			"column_right",
+			"column",
+			"asset_details_right_column",
+			"show_metadata",
+			"padding:7px;",
+			"codekit",
 			"render",
-			"request-milestone",
-			"Filter Name",
-			"add_user_filter",
-			"request details",
-			"openAssetReviewModal",
-			"onActivitySelect",
-			"downloadShot",
-			"download_shot",
-			"td_back_btn",
-			"zoom",
-			"zoom-icon material-icons clickable",
-			"‘",
-			"’",
-			"<!--",
-			"build",
+			"::",
+			"render",
+			"Batch Editing",
+			"batch Editing",
+			"Batch Edit",
 			"  ",
-			"Roboto-Thin",
-			"roboto-font-path",
-			"nav",
-			"Source",
-			"task",
-			"tasks",
-			"Milestone",
-			"milestone",
-			"milestones",
-			"filters",
-			":after",
-			"form_field chzn-top",
-			"<div class=\"form_uber\">",
+			"UA-",
 			"20",
-			".color($dash_color);",
-			"@",
-			"RT-datatable-header-feature-items",
-			"color-flag-selector",
-			"#color-flag-selector",
-			"button",
-			"chzn-top input-field",
-			"main_menu",
-			"tabs",
-			"contact",
-			"#header-nav-tabs-template",
-			"contact sheet",
-			"Contact Sheet",
-			"contact",
-			"Contact Sheet",
-			"Contact sheet",
-			"checkbox",
-			"Realtime",
-			"comment-indicator",
-			"comm",
-			"table",
-			"src=\"/images/icons/zoom.png\"",
-			"search",
-			"tabs",
-			"cop",
-			"copy_shot",
-			"copy_shot2",
-			"copy_shot",
-			"td",
-			"20",
-			"content",
-			".tab",
-			"tab"
+			"strong",
+			"mb",
+			"15",
+			"10",
+			"right",
+			"this",
+			"render",
+			"app-user-picker",
+			"class",
+			"r2",
+			"radio1",
+			"hide",
+			".hide",
+			"hide",
+			"error-text",
+			"hide",
+			"modelVisibilityChanged",
+			"//",
+			"modelVisibilityChanged",
+			"this.$el.hide();",
+			"modelVisibilityChanged",
+			"show",
+			"item",
+			"list",
+			"li",
+			"'li'",
+			"li",
+			"chozenItUp",
+			"chozenItUp()",
+			"chosen",
+			"list",
+			"css",
+			"ui.overl",
+			"ui.",
+			"user_list",
+			"item",
+			"list",
+			".js",
+			",js",
+			"list-item",
+			"bulk_new_rounds",
+			"input",
+			"bulk_new_rounds",
+			"800",
+			"chzn-input",
+			"round_name",
+			"subtitle ellipsis",
+			"Select Users",
+			"sm",
+			"user_lists_confirm_line2",
+			"flex",
+			"sm",
+			"create",
+			"lm-content prompt-view",
+			"no-list",
+			"ticket_detail_users_modal",
+			"lm-footer",
+			"global_user_preference",
+			"global_show_user_preference",
+			"global_user_preference",
+			"global_show_admin",
+			"z-index",
+			".alertify",
+			"alertify",
+			"$gradientTo",
+			"gradientFrom",
+			"textShadow",
+			"group",
+			"lm-list-item group",
+			"15",
+			"padding",
+			"pr",
+			"p",
+			"header",
+			"global_user_dialog",
+			"overlay_content",
+			"|– ",
+			"'",
+			"sidebar",
+			"lm-container",
+			".selected",
+			"overlay_mask",
+			"UI.overlay.open",
+			"ulm",
+			"UI.overlay",
+			"UI.overlay.open",
+			"global_user_list_modal",
+			"SWF",
+			"success",
+			"span ",
+			"class=\"",
+			"class",
+			"\"success",
+			"success",
+			"=\"success",
+			".success",
+			"def",
+			"bdef",
+			"def",
+			"avatar",
+			".15",
+			"15"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -841,14 +889,102 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boron (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/scripts/app.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140,
+								140
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boron (SL).tmTheme",
+							"syntax": "Packages/JSX/JSX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/scripts/imageBox.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Seti_UI/icons/Langs/React JSX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -885,7 +1021,7 @@
 	"project": "reactstuff.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -895,64 +1031,304 @@
 		"selected_items":
 		[
 			[
-				"gulp",
-				"metronic/theme/gulpfile.js"
+				"global",
+				"app/webroot/js/global.js"
 			],
 			[
-				"gulpfile",
-				"metronic/theme/gulpfile.js"
-			],
-			[
-				"colors",
-				"metronic/theme/admin_1/ui_colors.html"
-			],
-			[
-				"_buttons",
-				"metronic/theme/sass/bootstrap/_buttons.scss"
-			],
-			[
-				"login-3",
-				"metronic/theme/sass/pages/login-3.scss"
+				"approve.less",
+				"app/webroot/css/approve/approve.less"
 			],
 			[
 				"gitig",
 				".gitignore"
 			],
 			[
-				"_colors",
-				"metronic/theme/sass/global/_colors.scss"
+				"global.js",
+				"app/webroot/js/global.js"
 			],
 			[
-				"login_3",
-				"metronic/theme/admin_1/page_user_login_3.html"
+				"boot",
+				"app/webroot/js/boot.js"
 			],
 			[
-				"login4",
-				"metronic/theme/assets/pages/scripts/login-4.js"
+				"layout",
+				"app/views/layouts/timemanage.ctp"
 			],
 			[
-				"custom.",
-				"metronic/theme/sass/layouts/layout/custom.scss"
+				"git",
+				".gitignore"
 			],
 			[
-				"hbt",
-				"app/webroot/_hbt.php"
+				"managecont",
+				"app/controllers/manage_controller.php"
+			],
+			[
+				"controllers/manage",
+				"app/controllers/manage_controller.php"
+			],
+			[
+				"pages",
+				"cake/libs/controller/pages_controller.php"
+			],
+			[
+				"_user_list",
+				"app/webroot/css/components/_user_list_manager.scss"
+			],
+			[
+				"layouts/ma",
+				"app/views/layouts/timemanage.ctp"
+			],
+			[
+				"layout/approve",
+				"app/views/layouts/approve.ctp"
+			],
+			[
+				"layouts/manage",
+				"app/views/layouts/timemanage.ctp"
+			],
+			[
+				"layoutmanage",
+				"app/views/layouts/timemanage.ctp"
+			],
+			[
+				"_ra",
+				"app/webroot/css/components/_radio_buttons.scss"
+			],
+			[
+				"reset",
+				"app/webroot/css/cross_suite/reset.css"
+			],
+			[
+				"approvemain",
+				"app/webroot/css/approve/main.scss"
+			],
+			[
+				"_va",
+				"app/webroot/css/abstracts/_variables.scss"
+			],
+			[
+				"_rad",
+				"app/webroot/css/components/_radio_buttons.scss"
+			],
+			[
+				"_user",
+				"app/webroot/css/components/_user_selection.scss"
+			],
+			[
+				"_",
+				"app/webroot/css/components/_user_list_manager.scss"
+			],
+			[
+				"_buttons",
+				"app/webroot/css/components/_buttons.scss"
+			],
+			[
+				"_space",
+				"app/webroot/css/utilities/_spacers.scss"
+			],
+			[
+				"getuser",
+				"app/views/manage/get_user_selections.ctp"
+			],
+			[
+				"user_picekr",
+				"app/views/global/handlebars/user_picker_view.ctp"
+			],
+			[
+				"",
+				"app/webroot/css/timemanage/main.scss"
+			],
+			[
+				"user_picker",
+				"app/views/global/handlebars/user_picker_view.ctp"
+			],
+			[
+				"bulk_user",
+				"app/webroot/js/bulk_user_picker.js"
+			],
+			[
+				"manage/main",
+				"app/webroot/css/timemanage/main.scss"
+			],
+			[
+				"bulk_user_picker_view.ctp",
+				"app/views/global/handlebars/bulk_user_picker_view.ctp"
+			],
+			[
+				"user_list_app",
+				"app/views/global/handlebars/user_lists_app_view.ctp"
+			],
+			[
+				"globals.css",
+				"app/webroot/css/template/globals.css"
+			],
+			[
+				"cross_suite_global",
+				"app/webroot/css/cross_suite/cross_suite_global.css"
+			],
+			[
+				"approve",
+				"app/views/ui/approve_layout.ctp"
+			],
+			[
+				"cross_suite_dar",
+				"app/webroot/css/cross_suite/cross_suite_dark.css"
+			],
+			[
+				"globa",
+				"app/webroot/css/cross_suite/global.less"
+			],
+			[
+				"user_list",
+				"app/webroot/js/user_lists.js"
+			],
+			[
+				"user_lists_shared_list_view",
+				"app/views/global/handlebars/user_lists_shared_list_view.ctp"
+			],
+			[
+				"user_lists_user_list_view",
+				"app/views/global/handlebars/user_lists_user_list_view.ctp"
+			],
+			[
+				"user_lists_user_card_view",
+				"app/views/global/handlebars/user_lists_user_card_view.ctp"
+			],
+			[
+				"user_lists_app_view",
+				"app/views/global/handlebars/user_lists_app_view.ctp"
+			],
+			[
+				"layouts/manag",
+				"app/views/layouts/timemanage.ctp"
+			],
+			[
+				"user",
+				"app/webroot/js/user_lists.js"
+			],
+			[
+				"approve.js",
+				"app/webroot/js/approve.js"
+			],
+			[
+				"_var",
+				"app/webroot/css/abstracts/_variables.scss"
+			],
+			[
+				"ui_ov",
+				"app/webroot/css/components/_ui_overlay.scss"
+			],
+			[
+				"cross",
+				"app/webroot/css/cross_suite/cross_suite_global.less"
+			],
+			[
+				"layoutsapprove",
+				"app/views/layouts/approve.ctp"
+			],
+			[
+				"layoutsmanag",
+				"app/views/layouts/timemanage.ctp"
+			],
+			[
+				"approve/main",
+				"app/webroot/css/approve/main.scss"
+			],
+			[
+				"_s",
+				"app/webroot/css/utilities/_spacers.scss"
+			],
+			[
+				"alertifycore",
+				"app/webroot/js/alertify/themes/alertify.core.css"
+			],
+			[
+				"_bu",
+				"app/webroot/css/components/_buttons.scss"
+			],
+			[
+				"manage.ctp",
+				"app/views/layouts/timemanage.ctp"
+			],
+			[
+				"userlistst",
+				"app/views/global/handlebars/user_lists_app_view.ctp"
+			],
+			[
+				"user_list.ctp",
+				"app/views/global/handlebars/user_lists_app_view.ctp"
+			],
+			[
+				"user_",
+				"app/views/manage/get_user_selections.ctp"
+			],
+			[
+				"layouts",
+				"app/views/layouts/timemanage.ctp"
+			],
+			[
+				"layoutsmanage",
+				"app/views/layouts/upload_manager.ctp"
+			],
+			[
+				"glo",
+				"app/webroot/js/global.js"
+			],
+			[
+				"layoutappro",
+				"app/views/layouts/approve.ctp"
+			],
+			[
+				"timemana",
+				"app/views/layouts/timemanage.ctp"
+			],
+			[
+				"gl",
+				"app/webroot/js/global.js"
+			],
+			[
+				"managec",
+				"app/controllers/manage_controller.php"
+			],
+			[
+				"timemanage.js",
+				"app/webroot/js/timemanage/timemanage.js"
+			],
+			[
+				"approvela",
+				"app/views/ui/approve_layout.ctp"
 			],
 			[
 				"main.scss",
-				"app/webroot/css/refactor/main.scss"
+				"app/webroot/css/user_list_manager/main.scss"
 			],
 			[
-				"manag",
-				"app/views/ui/manage-material-ui.ctp"
+				"javascript",
+				"app/views/elements/javascript_layout.ctp"
 			],
 			[
-				"refactor.scss",
-				"app/webroot/css/refactor/main.scss"
+				"layouts/mana",
+				"app/views/layouts/timemanage.ctp"
 			],
 			[
-				"_lab",
-				"app/webroot/css/refactor/_label_picker.scss"
+				"approve.css",
+				"app/webroot/css/approve/approve.css"
+			],
+			[
+				"account",
+				"app/webroot/css/account_manager.css"
+			],
+			[
+				"account_mana",
+				"app/webroot/css/account_manager.css"
+			],
+			[
+				"table",
+				"views/themed/walmart/elements/table.ctp"
+			],
+			[
+				"key",
+				"app/webroot/js/key.js"
 			],
 			[
 				"50x",
@@ -985,6 +1361,10 @@
 			[
 				"header.js",
 				"app/webroot/js/Manage/Views/Header.js"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
 			],
 			[
 				"_roboto",
@@ -1103,20 +1483,8 @@
 				"app/webroot/js/vendors/materialize/sass/components/_color.scss"
 			],
 			[
-				"manage.ctp",
-				"app/views/default/manage/index.ctp"
-			],
-			[
-				"layouts/mana",
-				"app/views/layouts/timemanage.ctp"
-			],
-			[
 				".gitignore",
 				".gitignore"
-			],
-			[
-				"_",
-				"app/views/ui/_table.php"
 			],
 			[
 				".scssc",
@@ -1141,6 +1509,10 @@
 			[
 				"manage.scss",
 				"app/webroot/css/refactor/manage.scss"
+			],
+			[
+				"refactor.scss",
+				"app/webroot/css/refactor/main.scss"
 			],
 			[
 				"navbar",
@@ -1169,242 +1541,6 @@
 			[
 				"mixins",
 				"app/webroot/js/vendors/materialize/sass/components/_mixins.scss"
-			],
-			[
-				"dashboardconta",
-				"app/webroot/js/Manage/Views/DashboardContainer.js"
-			],
-			[
-				"controller.js",
-				"app/webroot/js/Manage/Controller.js"
-			],
-			[
-				"router.js",
-				"app/webroot/js/Manage/Router.js"
-			],
-			[
-				".git",
-				".gitignore"
-			],
-			[
-				"giti",
-				"node_modules/bower/node_modules/github/api/v3.0.0/gitignore.js"
-			],
-			[
-				"material-",
-				"app/webroot/js/material-ui.js"
-			],
-			[
-				"realtimehelper",
-				"app/webroot/js/vendors/realtimejs/src/Common/HandlebarsHelpers.js"
-			],
-			[
-				"materialize",
-				"app/webroot/js/vendors/materialize/sass/materialize.scss"
-			],
-			[
-				"mater",
-				"app/webroot/js/vendors/materialize/bin/materialize.css"
-			],
-			[
-				"fontawe",
-				"app/webroot/css/cross_suite/font-awesome.css"
-			],
-			[
-				".scss",
-				"app/webroot/js/vendors/materialize/sass/materialize.scss"
-			],
-			[
-				"bower.json",
-				"bower.json"
-			],
-			[
-				"refacro",
-				"app/webroot/css/timemanage/refactor.css"
-			],
-			[
-				"layout_header_nav",
-				"app/views/elements/cross_suite/layout_header_nav.ctp"
-			],
-			[
-				"jquery.datatables.css",
-				"walmart/app/webroot/js/datatables-1.10.6/media/css/jquery.dataTables.css"
-			],
-			[
-				"filterbar.fields",
-				"walmart/app/webroot/js/track/templates/Datatable.Filterbar.Fields.hbs"
-			],
-			[
-				"timetrack_v2.less",
-				"walmart/app/webroot/css/timetrack/timetrack_v2.less"
-			],
-			[
-				"timetrack_v2.css",
-				"walmart/app/webroot/css/timetrack/timetrack_v2.css"
-			],
-			[
-				"webrootjstracktem",
-				"walmart/app/webroot/js/track/templates/build/templates.js"
-			],
-			[
-				"default.css",
-				"walmart/app/webroot/css/datatables/default.css"
-			],
-			[
-				"head",
-				"shared/app/webroot/js/headlock.js"
-			],
-			[
-				"chos",
-				"walmart/app/webroot/js/chosen/chosen.less"
-			],
-			[
-				"upload_manager.css",
-				"shared/app/webroot/css/upload_manager/upload_manager.css"
-			],
-			[
-				"uploadmanagerjs",
-				"walmart/app/webroot/js/upload_manager/upload_manager.js"
-			],
-			[
-				"um",
-				"onekreate/app/webroot/js/plupload/upload_manager.js"
-			],
-			[
-				"layouts",
-				"walmart/app/views/layouts/share.ctp"
-			],
-			[
-				"chosen.css",
-				"walmart/app/webroot/js/chosen/chosen.css"
-			],
-			[
-				"chosen/chosen.css",
-				"walmartist/app/webroot/js/chosen/chosen.css"
-			],
-			[
-				"chose",
-				"shared/app/webroot/js/chosen_v1.0.0/chosen.css"
-			],
-			[
-				"boot.js",
-				"shared/app/webroot/js/boot.js"
-			],
-			[
-				"boot",
-				"shared/app/webroot/js/boot.js"
-			],
-			[
-				"global.",
-				"walmart/app/webroot/js/global.js"
-			],
-			[
-				"public.js",
-				"onekreate/app/webroot/js/public.js"
-			],
-			[
-				"public.css",
-				"walmart/app/webroot/css/public.css"
-			],
-			[
-				"video.",
-				"walmart/app/views/public/view_asset_types/video.ctp"
-			],
-			[
-				"embed",
-				"shared/app/webroot/css/embed_public.css"
-			],
-			[
-				"public.ctp",
-				"shared/app/views/layouts/public.ctp"
-			],
-			[
-				"walmartassets_control",
-				"walmart/app/controllers/assets_controller.php"
-			],
-			[
-				"assets",
-				"onekreate/app/controllers/assets_controller.php"
-			],
-			[
-				"routes",
-				"shared/app/config/routes.php"
-			],
-			[
-				"assets_con",
-				"onekreate/app/controllers/assets_controller.php"
-			],
-			[
-				"walmart/app/views/public/embed_video.ctp",
-				"walmart/app/views/public/embed_video.ctp"
-			],
-			[
-				"walmart/app/views/public/asset.ctp",
-				"walmart/app/views/public/asset.ctp"
-			],
-			[
-				"walmart/app/views/share/index.ctp",
-				"walmart/app/views/share/index.ctp"
-			],
-			[
-				"cross_suite_global.less",
-				"walmart/app/webroot/css/cross_suite/cross_suite_global.less"
-			],
-			[
-				"chosen",
-				"walmart/app/webroot/js/chosen/chosen.less"
-			],
-			[
-				"timeshare.less",
-				"shared/app/webroot/css/timeshare/timeshare.less"
-			],
-			[
-				"timeshare.css",
-				"shared/app/webroot/css/timeshare/timeshare.css"
-			],
-			[
-				"uploadmanager.css",
-				"shared/app/webroot/css/upload_manager/upload_manager.css"
-			],
-			[
-				"ajax_get_details",
-				"walmart/app/views/upload_manager/ajax_get_details.ctp"
-			],
-			[
-				"layouts/share",
-				"walmart/app/views/layouts/share.ctp"
-			],
-			[
-				"timeshare_downloader",
-				"walmart/app/views/elements/timeshare/timeshare_downloader.ctp"
-			],
-			[
-				"global_search_panel.css",
-				"walmart/app/webroot/css/global_search_panel.css"
-			],
-			[
-				"global_search_panel.less",
-				"walmart/app/webroot/css/global_search_panel.less"
-			],
-			[
-				"timemanage.css",
-				"walmart/app/webroot/css/timemanage/timemanage.css"
-			],
-			[
-				"cross_suite_dark",
-				"walmart/app/webroot/css/cross_suite/cross_suite_dark.css"
-			],
-			[
-				"grid.css",
-				"shared/app/webroot/css/bootstrap/css/grid.css"
-			],
-			[
-				"acco",
-				"walmart/app/views/accounts/account_manager.ctp"
-			],
-			[
-				"ajax_get_user_reporting",
-				"shared/app/views/accounts/ajax_get_user_reporting.ctp"
 			]
 		],
 		"width": 0.0
@@ -1435,7 +1571,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 214.0,
+	"side_bar_width": 298.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

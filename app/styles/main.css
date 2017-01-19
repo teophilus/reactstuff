@@ -432,7 +432,7 @@ a {
  */
 body {
   color: #222222;
-  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  font: normal 125%/1.4 "Roboto", sans-serif; }
 
 /**
  * Clear inner floats
@@ -488,5 +488,12 @@ body {
   padding: 0;
   position: absolute;
   width: 1px; }
+
+.image-box {
+  max-height: 200px;
+  max-width: 200px; }
+  .image-box img {
+    height: 100%;
+    width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

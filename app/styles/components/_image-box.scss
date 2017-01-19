@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the ImageBox component.
+// -----------------------------------------------------------------------------
+
+.image-box {
+  max-height: 200px;
+  max-width: 200px;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}

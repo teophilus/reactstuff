@@ -25,8 +25,6 @@ const DATA = [
 				}
 			];
 
-app.ALL_ASSETS = 'all';
-
 export default class App extends React.Component {
 
 	render() {

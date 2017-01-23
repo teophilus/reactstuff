@@ -6,8 +6,9 @@ export class MultiAsset extends React.Component {
 	render() {
 		var nodes = [];
 
-		this.props.data.forEach(function(image) {
-			nodes.push(<ImageBox key={image.id} title={image.title} image={image.image} />);
+		Object.keys(this.props.assets).forEach((assetId) => {
+			let asset = this.props.assets[assetId];
+			nodes.push(<ImageBox key={asset.id} asset={asset} />);
 		});
 
 		return (

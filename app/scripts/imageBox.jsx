@@ -6,9 +6,9 @@ export class ImageBox extends React.Component {
 		return (
 			<div className="image-box" >
 				<div className="image">
-					<img src={this.props.image} />
+					<img src={this.props.asset.image} />
 				</div>
-				<a className="title" href="">{this.props.title}</a>
+				<a className="title" href="">{this.props.asset.title}</a>
 			</div>
 		)
 	}

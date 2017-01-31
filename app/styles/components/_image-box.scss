@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 
 .image-box {
-  
+  font-size: .8em;
   display: flex;
   flex-direction: column;
   width: 200px;
@@ -12,6 +12,7 @@
   .image {
     max-height: 200px;
     max-width: 200px;
+    margin-bottom: 10px;
   }
 
   img {

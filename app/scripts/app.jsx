@@ -22,19 +22,22 @@ export default class App extends React.Component {
 	}
 
 	componentDidMount() {
-		const assetsRef = firebase.database().ref('assets/asset');
+		const assetsRef = firebase.database().ref('assets');
+
 		assetsRef.on('child_added', (assetRef) => {
 			let asset = assetRef.val();
 			let assets = Object.assign({}, this.state.assets);
 			assets[asset.id] = asset;
 			this.setState({ assets: assets });
 		});
+
 		assetsRef.on('child_removed', (assetRef) => {
 			let asset = assetRef.val();
 			let assets = Object.assign({}, this.state.assets);
 			delete assets[asset.id];
 			this.setState({ assets: assets });
 		});
+		
 		assetsRef.on('child_changed', (assetRef) => {
 			let asset = assetRef.val();
 			let assets = Object.assign({}, this.state.assets);

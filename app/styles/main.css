@@ -495,13 +495,15 @@ body {
   flex-wrap: wrap; }
 
 .image-box {
+  font-size: .8em;
   display: flex;
   flex-direction: column;
   width: 200px;
   margin: 0 15px 15px 0; }
   .image-box .image {
     max-height: 200px;
-    max-width: 200px; }
+    max-width: 200px;
+    margin-bottom: 10px; }
   .image-box img {
     height: 100%;
     width: 100%; }

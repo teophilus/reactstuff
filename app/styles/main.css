@@ -494,6 +494,15 @@ body {
   flex-direction: row;
   flex-wrap: wrap; }
 
+.asset {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center; }
+
 .image-box {
   font-size: .8em;
   display: flex;

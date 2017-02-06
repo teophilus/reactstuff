@@ -9,9 +9,9 @@ export class Asset extends React.Component {
 		if (asset) {
 			return (
 				<div className="asset" >
+					<h1>{asset.title}</h1>
 					<div className="image">
 						<img src={asset.image} />
-						{asset.id}
 					</div>
 				</div>
 			)

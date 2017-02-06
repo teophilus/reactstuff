@@ -27,7 +27,7 @@ export default class App extends React.Component {
 
 	componentDidMount() {
 		console.log('did mount');
-		
+
 		const assetsRef = firebase.database().ref('assets');
 
 		assetsRef.on('child_added', (assetRef) => {
@@ -56,7 +56,6 @@ export default class App extends React.Component {
 	render() {
 		return (
 			<div>
-				<Link className="title" to="assets">Assets</Link>
 				{this.props.children && React.cloneElement(this.props.children, {
 					assets: this.state.assets
 				})}

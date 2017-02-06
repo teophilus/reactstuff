@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the Asset component.
+// -----------------------------------------------------------------------------
+
+.asset {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}

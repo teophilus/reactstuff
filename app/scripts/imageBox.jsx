@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router'
 
 export class ImageBox extends React.Component {
 
@@ -8,7 +9,7 @@ export class ImageBox extends React.Component {
 				<div className="image">
 					<img src={this.props.asset.image} />
 				</div>
-				<a className="title" href="">{this.props.asset.title}</a>
+				<Link className="title" to={`/asset/${this.props.asset.id}`}>{this.props.asset.title}</Link>
 			</div>
 		)
 	}
